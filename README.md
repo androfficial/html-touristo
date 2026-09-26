@@ -2,7 +2,7 @@
 
 Landing page for Touristo, a travel agency, with an advanced tour search, a filterable catalog of discounted tours and sliders. The site is in Ukrainian. Built in July 2021 as a learning project.
 
-**Live demo:** [androfficial.github.io/touristo](https://androfficial.github.io/touristo/)
+**Live demo:** [androfficial.github.io/html-touristo](https://androfficial.github.io/html-touristo/)
 
 ## Features
 
@@ -27,8 +27,8 @@ Landing page for Touristo, a travel agency, with an advanced tour search, a filt
 The repository holds the compiled site, with no dependencies and no build step. The icons come from an external SVG sprite that browsers do not load from `file://`, so serve the folder over HTTP, for example with `npx serve .` on Node.js 18 or later.
 
 ```bash
-git clone https://github.com/androfficial/touristo.git
-cd touristo
+git clone https://github.com/androfficial/html-touristo.git
+cd html-touristo
 npx serve .
 ```
 
