@@ -26,9 +26,7 @@ window.addEventListener('scroll', checkScroll)
    
 //    let error = checkValueInput(form);
 //    if (error === 0) {
-//       console.log('Спасибо за подписку!');
 //    } else {
-//       console.log('Пожалуйста, заполните поля.');
 //    }
 // });
 
@@ -60,7 +58,6 @@ window.addEventListener('scroll', checkScroll)
 //    return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 // }
 
-// В случае если не все поля обязательно заполнять
 const form   = document.querySelector('.form-sub');
 const inputs = form.querySelectorAll('input');
 
@@ -403,14 +400,14 @@ if (window.innerWidth < 481 && isMobile.any()) {
          parent.classList.toggle('_show');
          if (!lastElement.classList.contains('_show')) {
             lastElement.classList.add('_show');
-            lastElement.style.height = 'auto'; // устанавливаем высоту авто
+            lastElement.style.height = 'auto';
 
-            const height = lastElement.clientHeight + 'px'; // получаем высоту элемента
+            const height = lastElement.clientHeight + 'px';
 
-            lastElement.style.height = '0px'; // устанавлиаем высоту 0 пикселей
+            lastElement.style.height = '0px';
 
             setTimeout(() => {
-               lastElement.style.height = height; // устанавлиаем высоту полученого элемента
+               lastElement.style.height = height;
             }, 0);
          } else {
             lastElement.style.height = '0px';

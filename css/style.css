@@ -260,7 +260,7 @@ body._lock {
 }
 
 ._error::after {
-  content: "Пожалуйста, введите email";
+  content: "Будь ласка, введіть email";
   position: absolute;
   top: calc(100% + 5px);
   left: 0;
@@ -1728,7 +1728,7 @@ body._lock {
 }
 
 .form-sub__contacts--phone._error::after {
-  content: "Пожалуйста, введите номер";
+  content: "Будь ласка, введіть номер";
 }
 
 .form-sub__contacts._show {
